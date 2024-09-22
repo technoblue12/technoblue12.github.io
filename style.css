@@ -16,15 +16,19 @@ body {
 .flexmenu {
     display: flex;
     align-items: center;
-    justify-content:space-evenly;
+}
+
+#flextext {
+	font-size: 3vw;
 }
 
 div.flexmenu > p {
-    font-size: 48px;
+	font-size: 1.5vw;
+	margin-left: 5vw;
 }
 
 div.flexmenu > img {
-    width: 50%;
+    width: 25vw;
 }
 
 /*main {
@@ -33,13 +37,7 @@ div.flexmenu > img {
 
 h1 {
     margin: 0;
-    font-size: 52px;
-}
-
-h2 {
-    margin: 0;
-    margin-bottom: 100px;
-    font-size: 16px;
+    font-size: 4vw;
 }
  
 /*.heading {
